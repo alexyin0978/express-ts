@@ -7,7 +7,7 @@
     "dev": "node server.ts",
     "dev:watch": "nodemon server.ts",
     "tsc": "tsc",
-    "prod": "tsc && node server.js",
+    "prod": "npm run tsc && node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
